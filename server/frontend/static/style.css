@@ -126,7 +126,10 @@ img{
 }
 
 .contact {
-    background-image: "/contact2.png";
+    background-image: url("/static/contact2.png");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
     background-color: white;
     padding: 20px;
     margin: 20px;
@@ -136,7 +139,7 @@ img{
 
 .contact h2 {
     font-size: 2em;
-    color: #2c3e50;
+    color: lightblue;
     text-align: center;
 }
 
@@ -150,7 +153,7 @@ img{
 }
 
 .contact-info strong {
-    color: white;
+    color: lightblue;
 }
 
 .hours ul {
@@ -164,5 +167,5 @@ img{
 }
 
 .hours ul li strong {
-    color: white;
+    color: lightblue;
 }
